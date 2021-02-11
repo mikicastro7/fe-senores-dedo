@@ -90,3 +90,13 @@ td {
     padding: 3px;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+
+    .señor-container {
+        width: 95%;
+    }
+}
