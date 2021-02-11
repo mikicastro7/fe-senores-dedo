@@ -22,12 +22,13 @@ header {
 
 header h1 {
     font-weight: lighter;
-    margin-bottom: 10px;
     font-size: 30px;
 }
 
-header h2 {
+.marcados {
     font-weight: lighter;
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 header p {
