@@ -9,10 +9,11 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 100%;
     background-color: rgba(172, 246, 222, 0.664);
     margin: auto;
-    padding-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 header {
@@ -92,9 +93,21 @@ header p {
     margin-bottom: 20px;
 }
 
-td {
-    padding: 3px;
-    font-size: 20px;
+
+.info-señor p {
+    font-size: 24px;
+}
+
+.info-señor p:nth-child(2) span {
+    margin-left: 10px;
+}
+
+.info-señor p:nth-child(3) span {
+    margin-left: 40px;
+}
+
+.info-señor p:nth-child(3) span {
+    margin-left: 40px;
 }
 
 .fa-check {
@@ -114,8 +127,8 @@ td {
     display: none;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) {
     .container {
-        width: 100%;
+        width: 1140px;
     }
 }
