@@ -38,7 +38,7 @@ header p {
 
 .señor-container {
     margin: auto;
-    width: 800px;
+    width: 100%;
     background-color: rgb(101, 149, 204);
     margin-bottom: 40px;
     border: 2px solid white;
@@ -106,7 +106,7 @@ header p {
     margin-left: 40px;
 }
 
-.info-señor p:nth-child(3) span {
+.info-señor p:nth-child(4) span {
     margin-left: 40px;
 }
 
@@ -130,5 +130,11 @@ header p {
 @media only screen and (min-width: 1200px) {
     .container {
         width: 1140px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .señor-container {
+        width: 80%;
     }
 }
