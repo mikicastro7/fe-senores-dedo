@@ -47,6 +47,11 @@ header p {
     position: relative;
 }
 
+.señor-container:hover img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
 .señor-container:hover .tick {
     display: block;
 }
@@ -55,6 +60,7 @@ header p {
     width: 150px;
     border-radius: 50%;
     border: 1px solid white;
+    transition: 1s;
 }
 
 .foto-icono {
@@ -126,6 +132,8 @@ header p {
     font-size: 24px;
     display: none;
 }
+
+
 
 @media only screen and (min-width: 1200px) {
     .container {
